@@ -2,9 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import WeatherTemperature from './WeatherTemperature'
 import WeatherExtraInfo from './WeatherExtraInfo'
-import {
-    CLOUD, CLOUDY, SUN, RAIN, WINDY, SNOW,
-} from './../../../constants/weather'
 import './styles.css';
 
 const WeatherData = ({data: {temperature, weatherState, humidity, wind} }) => (
